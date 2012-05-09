@@ -1,0 +1,123 @@
+/* Latar Penutup Halaman */
+#confirmOverlay {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:url('ie.png');
+	background:-moz-linear-gradient(rgba(21,48,110,0.4), rgba(21,48,110,0.8)) repeat-x rgba(21,48,110,0.4);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(21,48,110,0.4)), to(rgba(21,48,110,0.8))) repeat-x rgba(21,48,110,0.4);
+	z-index:100000;
+}
+/* Kotak Dialog Konfirmasi */
+#confirmBox {
+	background: #142D69;
+	width:460px;
+	border: 1px solid #051950;
+}
+
+#confirmBox h1, #confirmBox p {
+	font:26px/1 'Open Sans Condensed','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	padding:10px 20px;
+	text-shadow:0 1px 0 #000F2D;
+	color:#8AA5E1;
+}
+
+#confirmBox h1 {
+	letter-spacing:0.3px;
+	background:-webkit-linear-gradient(bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, 0) 30px);
+	background:-moz-linear-gradient(bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, 0) 30px);
+	border-bottom:1px solid #051950;
+	border-top:1px solid #143778;
+	font-weight:bold;
+
+}
+
+#confirmBox p {
+	border-top:1px solid #143778;
+	font-size:18px;
+	line-height:1.4;
+	padding-top:25px;
+	text-align:center;
+	color: #ffffff;
+}
+/* Tombol */
+#confirmButtons {
+	padding:15px 0 25px;
+	text-align:center;
+}
+
+#confirmBox .button {
+	display:inline-block;
+	position:relative;
+	height:27px;
+	font:17px/26px 'Open Sans Condensed','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	margin:0 5px;
+	padding:0;
+	text-decoration:none;
+}
+
+#confirmBox .button span {
+	text-align:center;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+#confirmBox .round-blue {
+	width:150px;
+	color:#8aa5e1;
+	cursor:default;
+	border:1px solid #04133D;
+	text-shadow:0 -1px 0 #000f2d;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	box-shadow:inset 0 1px 0 #1A428C, 0 1px 0 #173C82;
+	-moz-box-shadow:inset 0 1px 0 #1A428C, 0 1px 0 #173C82;
+	-webkit-box-shadow:inset 0 1px 0 #1A428C, 0 1px 0 #173C82;
+	background:#133573;
+	background:-moz-linear-gradient(top, #133573 0%, #132A65 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#133573), color-stop(100%,#132A65));
+	background:-webkit-linear-gradient(top, #133573 0%,#132A65 100%);
+	background:-o-linear-gradient(top, #133573 0%,#132A65 100%);
+	background:-ms-linear-gradient(top, #133573 0%,#132A65 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#133573', endColorstr='#132A65',GradientType=0 );
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#133573', endColorstr='#132A65',GradientType=0 );
+	background:linear-gradient(top, #133573 0%,#132A65 100%);
+}
+
+#confirmBox .round-blue:hover {
+	box-shadow:inset 0 1px 0 #1c4593, 0 1px 0 #173C82;
+	-moz-box-shadow:inset 0 1px 0 #1c4593, 0 1px 0 #173C82;
+	-webkit-box-shadow:inset 0 1px 0 #1c4593, 0 1px 0 #173C82;
+	background:#1d3e60;
+	background:-moz-linear-gradient(top, #15306E 0%, #163B7F 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#15306E), color-stop(100%,#163B7F));
+	background:-webkit-linear-gradient(top, #15306E 0%,#163B7F 100%);
+	background:-o-linear-gradient(top, #15306E 0%,#163B7F 100%);
+	background:-ms-linear-gradient(top, #15306E 0%,#163B7F 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#15306E', endColorstr='#163B7F',GradientType=0 );
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#15306E', endColorstr='#163B7F',GradientType=0 );
+	background:linear-gradient(top, #15306E 0%,#163B7F 100%);
+}
+
+#confirmBox .round-blue:active {
+	box-shadow:inset 0 1px 0 #173C82, 0 1px 0 #173C82;
+	-moz-box-shadow:inset 0 1px 0 #173C82, 0 1px 0 #173C82;
+	-webkit-box-shadow:inset 0 1px 0 #173C82, 0 1px 0 #173C82;
+	background:#1d3e60;
+	background:-moz-linear-gradient(top, #15306E 0%, #163B7F 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#15306E), color-stop(100%,#163B7F));
+	background:-webkit-linear-gradient(top, #15306E 0%,#163B7F 100%);
+	background:-o-linear-gradient(top, #15306E 0%,#163B7F 100%);
+	background:-ms-linear-gradient(top, #15306E 0%,#163B7F 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15306E', endColorstr='#163B7F',GradientType=0 );
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#15306E', endColorstr='#163B7F',GradientType=0 );
+	background:linear-gradient(top, #15306E 0%,#163B7F 100%);
+}
