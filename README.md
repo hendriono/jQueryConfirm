@@ -1,8 +1,8 @@
 Confirm Dialog Replacement plugin for jQuery
 ====================================================
 
-## About ColorBox:
-A customizable Confirm Dialog Replacement plugin for jQuery.  See the article for [documentation](http://tutorialzine.com/2010/12/better-confirm-box-jquery-css3/) and a [demonstration]() in English, and see the [article]() for Indonesian.  Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
+## About jQuery Confirm:
+A customizable Confirm Dialog Replacement plugin for jQuery.  See the article for [documentation](http://tutorialzine.com/2010/12/better-confirm-box-jquery-css3/) in English, and see the [article](http://modification-blog.blogspot.com/2012/05/jquery-confirm-plugin.html) and a [demonstration](http://jsfiddle.net/hendriono/PhAgL/show/) for Indonesian.  Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
 ## Changelog:
 
